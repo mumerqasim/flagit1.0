@@ -1,0 +1,9 @@
+.Heading {
+    background-image: linear-gradient(to bottom, #09203f 0%, #153853 100%); 
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem 0;
+    letter-spacing: 0.15rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+}

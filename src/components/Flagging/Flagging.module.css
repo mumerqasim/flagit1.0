@@ -1,0 +1,65 @@
+.FlaggingContainer{
+    margin-top: 6rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: stretch;
+}
+
+.FlaggingGroup {
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+    width: 100%;
+    text-align: left;
+}
+
+.FlaggingGroup>label{
+    cursor: pointer;
+}
+
+.FlaggingGroup>input{
+    cursor: pointer;
+}
+
+.CustomInputContainer{
+    /* flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch; */
+    text-align: left;
+    padding: 0.5rem 0;
+    width: 90%;
+    margin: auto;
+}
+
+
+.CustomInputContainer label[for='customcodes']{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.CustomInputContainer label[for='customvariables']{
+    display: inline-block;
+    margin: 0.5rem 0;
+    margin-right: 0.5rem;
+
+}
+
+.CustomInputContainer input{
+    width: 80%;
+    padding: 0.3rem 0.5rem;
+    border-radius: 2rem;
+}
+
+.CustomInputContainer textarea{
+    width: 95%;
+    border-radius: 0.5rem;
+    min-height: 10rem;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    min-width: 95%;
+    max-width: 95%;
+}

@@ -1,0 +1,32 @@
+.CheckingContainer {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    color:whitesmoke;
+    text-align: left;
+}
+
+.CheckingContainer textarea{
+    display: block;
+    margin: auto;
+    width: 90%;
+    border-radius: 0.5rem;
+    min-height: 10rem;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    min-width: 90%;
+    max-width: 90%;
+}
+
+.CheckingContainer label{
+    display: block;
+    width: 90%;
+    margin: auto;
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+}

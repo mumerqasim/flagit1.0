@@ -1,0 +1,27 @@
+.OutputContainer {
+    margin-top: 3rem;
+    width: 100%;
+    position: relative;
+}
+
+.OutputContainer textarea {
+    width: 100%;
+    border-radius:1rem;
+    min-height: 15rem;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 1.5rem;
+}
+
+.OutputContainer h3 {
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+    background-image: linear-gradient(to bottom, #09203f 0%, #153853 100%); 
+    padding: 0.2rem 1.5rem;
+    font-weight: 500;
+    color: aliceblue;
+    border-radius: 15rem;
+    transform: translate(20%, -50%);
+    border: 2px solid rgb(89, 87, 87);
+}

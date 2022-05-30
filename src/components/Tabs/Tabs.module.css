@@ -1,0 +1,56 @@
+.TabsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width: 95%;
+    z-index: 100;
+    top: 1rem;
+    left: 50%;
+    transform: translate(-50%);
+    min-height: 3rem;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    border-radius: 5rem;
+    overflow: hidden;
+    padding: 0.3rem;
+}
+
+.TabsContainer input {
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.TabsContainer .Disabled,  .TabsContainer .Disabled label{
+    cursor: not-allowed;
+}
+
+.TabsContainer label {
+    cursor: pointer;
+}
+
+.TabGroup {
+    width: 100%;
+    height: 200%;
+    margin: 0.1rem;
+    border-radius: 2rem;
+    padding: 0.8rem 0.5rem;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+
+.ActiveTab {
+    background-image: linear-gradient(to bottom, #09203f 0%, #153853 100%); 
+    color: aliceblue;
+    box-shadow: 1px 1px 80px #8888881d;
+    font-weight: 600;
+}
+
+.TabGroup:hover {
+    background-image: linear-gradient(to bottom, #09203f 0%, #153853 100%); 
+    color: aliceblue;
+    box-shadow: 1px 1px 80px #8888881d;
+    font-weight: 600;
+}

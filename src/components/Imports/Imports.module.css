@@ -1,0 +1,109 @@
+
+.ImportsContainer{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ImportsInputContainer{
+  color: rgb(255, 255, 255);
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+}
+
+.ImportsInputContainer label{
+    display: inline-block;
+    min-width: 15%;
+    margin-right: auto;
+    font-weight: 500;
+    font-size: large;
+}
+
+.ImportsInputContainer input{
+    display: inline-block;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    max-width: 95%;
+    width: 95%;
+    margin-right: auto;
+}
+
+
+.ImportsRadioContainer{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 95%;
+    margin-left:auto;
+}
+
+.ImportsRadioGroup {
+    margin: 0.5rem;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    padding: 0.75rem 1rem;
+    min-width: 11rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 2px solid whitesmoke;
+    transition: all 0.2s linear;
+    text-transform: capitalize;
+}
+
+.ImportsRadioGroup input {
+    margin-right:1rem;
+    cursor: pointer;
+}
+
+.ImportsRadioGroup input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffffff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.ImportsRadioGroup input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #0db524;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+
+.ImportsRadioGroup label {
+    cursor: pointer;
+}
+
+.ImportsItem{
+    
+}
+
+.ImportsRadioGroup:hover, .ActiveImport {
+    background-image: linear-gradient(to bottom, #09203f 0%, #153853 100%); 
+    color: aliceblue;
+    font-weight: 600;
+    border: 2px solid whitesmoke;
+}

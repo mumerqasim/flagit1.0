@@ -1,0 +1,70 @@
+.ClientContainer{
+    margin-top: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 95%;
+    margin-left:auto;
+}
+
+.ClientGroup {
+    margin: 0.5rem;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    padding: 0.75rem 1rem;
+    min-width: 11rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 2px solid whitesmoke;
+    transition: all 0.2s linear;
+}
+
+.ClientGroup input {
+    margin-right:1rem;
+    cursor: pointer;
+}
+
+.ClientGroup input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffffff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.ClientGroup input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #0db524;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+
+.ClientGroup label {
+    cursor: pointer;
+}
+
+.ClientItem{
+    
+}
+
+.ClientGroup:hover, .ActiveClient {
+    background-image: linear-gradient(to bottom, #09203f 0%, #153853 100%); 
+    color: aliceblue;
+    font-weight: 600;
+    border: 2px solid whitesmoke;
+}

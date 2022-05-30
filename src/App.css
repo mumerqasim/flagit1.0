@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.form{
+  border-radius: 1rem;
+  min-height: 30rem;
+  background-image: linear-gradient(to bottom, #09203f 0%, #153853 100%); 
+  overflow: hidden;
 }
 
 .App-logo {

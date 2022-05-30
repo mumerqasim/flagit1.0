@@ -1,0 +1,48 @@
+.TrelloContainer{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+}
+
+.TrelloInputContainer{
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width:85%;
+}
+
+.TrelloInputContainer label{
+    margin-right: 0.3rem;
+    text-align: left;
+}
+
+.TrelloInputContainer input{
+    padding: 0.5rem;
+    border-radius: 3rem;
+}
+
+.CheckboxContainer{
+    padding: 1rem;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.CheckboxContainer label{
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+.CheckboxContainer input{
+    cursor: pointer;
+}

@@ -1,0 +1,134 @@
+.SplittingContainer{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SplittingRadioContainer{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 95%;
+    margin-left:auto;
+}
+
+.SplittingRadioGroup {
+    margin: 0.5rem;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    padding: 0.75rem 1rem;
+    min-width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 2px solid whitesmoke;
+    transition: all 0.2s linear;
+    text-transform: capitalize;
+}
+
+.SplittingRadioGroup input {
+    margin-right:1rem;
+    cursor: pointer;
+}
+
+.SplittingRadioGroup input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffffff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.SplittingRadioGroup input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #0db524;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+
+.SplittingRadioGroup label {
+    cursor: pointer;
+}
+
+.SplittingItem{
+    
+}
+
+.SplittingRadioGroup:hover, .ActiveSplitting {
+    background-image: linear-gradient(to bottom, #09203f 0%, #153853 100%); 
+    color: aliceblue;
+    font-weight: 600;
+    border: 2px solid whitesmoke;
+}
+
+.SplittingCheckContainer{
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    color: whitesmoke;
+}
+
+.SplittingCheckGroup{
+    padding: 0.75rem 0;
+}
+
+.SplittingCheckGroup label{
+    cursor: pointer;
+    margin-left: 0.4rem;
+}
+
+.SplittingCheckGroup input{
+    cursor: pointer;
+    margin-left: 0.4rem;
+}
+
+.SplittingOutputContainer{
+    color: rgb(255, 255, 255);
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    margin: auto;
+}
+
+.SplittingOutputContainer label{
+    display: inline-block;
+    min-width: 20%;
+    margin-right: auto;
+    font-weight: 500;
+    font-size: large;
+}
+
+.SplittingOutputContainer input{
+    display: inline-block;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    max-width: 75%;
+    width: 75%;
+    margin-right: auto;
+}
