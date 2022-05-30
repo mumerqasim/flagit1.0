@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/flagit/static/css/main.aec63409.css",
+    "main.js": "/flagit/static/js/main.e4d7041f.js",
+    "static/js/787.660b3d97.chunk.js": "/flagit/static/js/787.660b3d97.chunk.js",
+    "index.html": "/flagit/index.html",
+    "main.aec63409.css.map": "/flagit/static/css/main.aec63409.css.map",
+    "main.e4d7041f.js.map": "/flagit/static/js/main.e4d7041f.js.map",
+    "787.660b3d97.chunk.js.map": "/flagit/static/js/787.660b3d97.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aec63409.css",
+    "static/js/main.e4d7041f.js"
+  ]
+}
